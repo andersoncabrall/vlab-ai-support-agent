@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cliente_01",
+    "nome": "Maria Silva",
+    "nivel_tecnico": "leigo",
+    "estilo_comunicacao": "didatico",
+    "canal": "chat"
+  },
+  {
+    "id": "cliente_02",
+    "nome": "João Pereira",
+    "nivel_tecnico": "intermediario",
+    "estilo_comunicacao": "direto",
+    "canal": "e-mail"
+  },
+  {
+    "id": "cliente_03",
+    "nome": "Ana Costa",
+    "nivel_tecnico": "avancado",
+    "estilo_comunicacao": "detalhado",
+    "canal": "telefone"
+  }
+]

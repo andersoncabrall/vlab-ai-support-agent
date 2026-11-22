@@ -1,0 +1,44 @@
+{
+  "hash": "eb20dd428a0de549d7ac4cbb4bc7be8b",
+  "customer_id": "cliente_01",
+  "ticket": "Minha internet cai toda vez que chove e o roteador fica com a luz vermelha piscando",
+  "prompt_version": "v2",
+  "content_type": "diagnosis",
+  "timestamp": "2026-11-20T21:44:30.237138+00:00",
+  "output": {
+    "hipoteses": [
+      {
+        "causa": "Interrupção na linha de internet (cobre ou fibra) causada por infiltração de água ou danos ao cabo externo durante a chuva",
+        "evidencias": "A queda da internet ocorre apenas quando chove e o roteador indica erro com luz vermelha piscando, sugerindo falha na recepção de sinal",
+        "confianca": "medio"
+      },
+      {
+        "causa": "Sobretensão ou queda de energia causada por raios ou tempestade, que faz o roteador reiniciar ou entrar em modo de erro",
+        "evidencias": "Luz vermelha piscando costuma indicar problema de alimentação ou falha de hardware, e a queda acontece apenas em dias de chuva, quando há maior risco de raios",
+        "confianca": "medio"
+      },
+      {
+        "causa": "Interferência eletromagnética ou de rádio causada por tempestade que afeta o sinal Wi‑Fi do roteador",
+        "evidencias": "A queda acontece apenas na chuva, o que pode indicar interferência atmosférica, embora a luz vermelha sugira erro de hardware",
+        "confianca": "baixo"
+      },
+      {
+        "causa": "Problema interno no roteador (falha de hardware ou firmware) que se manifesta apenas sob condições de umidade",
+        "evidencias": "Luz vermelha piscando indica erro interno e a condição de chuva pode agravar a falha",
+        "confianca": "baixo"
+      }
+    ],
+    "dados_faltantes": [
+      "Tipo de conexão de internet (cobre, fibra, satélite)",
+      "Localização do roteador (próximo a janelas, em área externa ou interna)",
+      "Se há proteção contra surtos ou estabilizador de energia",
+      "Se outros dispositivos conectados ao mesmo roteador também perdem a conexão na chuva",
+      "Se o ISP reportou falhas ou manutenção na região",
+      "Se há histórico de raios ou tempestades fortes na região"
+    ],
+    "conclusao_provavel": {
+      "causa": "Interrupção na linha de internet causada por infiltração de água ou danos ao cabo externo durante a chuva",
+      "confianca": "medio"
+    }
+  }
+}

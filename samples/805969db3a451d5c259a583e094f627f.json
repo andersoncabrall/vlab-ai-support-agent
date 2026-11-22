@@ -1,0 +1,43 @@
+{
+  "hash": "805969db3a451d5c259a583e094f627f",
+  "customer_id": "cliente_01",
+  "ticket": "Minha internet cai toda vez que chove e o roteador fica com a luz vermelha piscando",
+  "prompt_version": "v1",
+  "content_type": "diagnosis",
+  "timestamp": "2026-11-20T22:01:17.048093+00:00",
+  "output": {
+    "hipoteses": [
+      {
+        "causa": "Interrupção de energia causada por quedas de tensão ou surtos elétricos durante a chuva",
+        "evidencias": "Internet cai sempre que chove e o roteador exibe luz vermelha piscando, indicando falha de energia ou proteção contra sobrecarga",
+        "confianca": "alto"
+      },
+      {
+        "causa": "Danos na linha de fibra/ADSL devido à umidade ou descida de cabos de cobre",
+        "evidencias": "Falha recorrente apenas em condições de chuva, sugerindo que a umidade pode estar afetando a conexão física",
+        "confianca": "medio"
+      },
+      {
+        "causa": "Problema no ISP que se manifesta sob condições climáticas adversas",
+        "evidencias": "A queda de internet coincide com a chuva, o que pode indicar falha na infraestrutura do provedor em condições de alta umidade ou tempestades",
+        "confianca": "baixo"
+      },
+      {
+        "causa": "Falha interna no roteador que só se manifesta quando a carga de energia varia",
+        "evidencias": "Luz vermelha piscando pode indicar falha interna, mas não há evidência direta de relação com a chuva",
+        "confianca": "baixo"
+      }
+    ],
+    "dados_faltantes": [
+      "Histórico de quedas de energia na região durante a chuva",
+      "Verificação de voltagem e estabilidade da tomada onde o roteador está conectado",
+      "Condições de conexão física (cabo de fibra/ADSL, conectores, estado da linha)",
+      "Relatório de status do ISP para o período em que a queda ocorreu",
+      "Teste de funcionamento do roteador em condições de chuva controlada ou com estabilizador de energia"
+    ],
+    "conclusao_provavel": {
+      "causa": "Interrupção de energia causada por quedas de tensão ou surtos elétricos durante a chuva",
+      "confianca": "alto"
+    }
+  }
+}
