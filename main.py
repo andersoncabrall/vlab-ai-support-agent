@@ -16,7 +16,7 @@ from prompts import (
 
 BASE_DIR = Path(__file__).resolve().parent
 CLIENTES_PATH = BASE_DIR / "clientes.json"
-DEFAULT_MODEL = "openai/gpt-oss-20b"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 
 def carregar_configuracao() -> dict:

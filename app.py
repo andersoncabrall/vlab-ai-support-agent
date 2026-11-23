@@ -47,4 +47,5 @@ with gr.Blocks(title="V-LAB: Assistente de Suporte AI", theme=gr.themes.Soft()) 
     )
 
 if __name__ == "__main__":
-    app.launch(server_name="0.0.0.0")
+    porta = int(os.environ.get("PORT", 7860))
+    app.launch(server_name="0.0.0.0", server_port=porta)

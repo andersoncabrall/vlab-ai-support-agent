@@ -1,5 +1,8 @@
 # V-LAB: Assistente de Atendimento com IA
 
+🔗 **Acesse a Demo Online:** [Clique aqui para testar a aplicação](https://vlab-ai-support-agent.onrender.com/)
+*(Nota: Por estar hospedado no plano gratuito do Render, o primeiro acesso após inatividade pode levar cerca de 50 segundos para iniciar o servidor).*
+
 Um assistente de suporte técnico via CLI focado na aplicação de técnicas avançadas de **Engenharia de Prompt**, **Injeção de Contexto Dinâmico** e **Adaptação de Persona**. Este projeto foi desenvolvido como parte de um desafio técnico para demonstrar o controle sobre Modelos de Linguagem de Grande Escala (LLMs).
 
 ## 🎯 Objetivo do Projeto
@@ -18,6 +21,7 @@ O projeto segue uma arquitetura modular com separação clara de responsabilidad
 - **`clientes.json`:** Banco de dados estático simulando os perfis dos clientes (contexto do usuário).
 - **`cache.py`:** Camada de persistência. Gera um hash MD5 baseado no input e salva a resposta localmente, evitando requisições redundantes à API e otimizando custos (*Cache Hit*).
 - **`PROMPT_ENGINEERING_NOTES.md`:** Relatório técnico contendo a rubrica de comparação entre as versões de prompts (Básico vs. Otimizado).
+- **`app.py`:** Interface web interativa construída com Gradio, permitindo testar os diferentes perfis de clientes, ações e versões de prompt diretamente pelo navegador.
 
 ## 🚀 Como Executar o Projeto
 
@@ -63,6 +67,8 @@ GROQ_MODEL="openai/gpt-oss-120b"
 5. **Rode a aplicação:**
 ```bash
 python main.py
+
+python app.py
 
 ```
 
