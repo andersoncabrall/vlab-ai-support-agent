@@ -53,7 +53,7 @@ pip install -r requirements.txt
 * Abra o `.env` e insira sua chave da Groq:
 ```env
 GROQ_API_KEY="sua-chave-aqui-sem-aspas"
-GROQ_MODEL="llama3-70b-8192"
+GROQ_MODEL="openai/gpt-oss-120b"
 
 ```
 
